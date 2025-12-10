@@ -1,0 +1,70 @@
+export const contacts = [
+    {
+    id: "1",
+    firstName: "Alex",
+    lastName: "Johnson",
+    email: "alex.johnson@techcorp.com",
+    phone: "+1 (555) 123-4567",
+    title: "Senior Developer",
+    company: "TechCorp Inc.",
+    location: "San Francisco, CA",
+    website: "https://alexjohnson.dev",
+    tags: ["work", "developer", "tech"],
+    notes: "Met at React conference 2023. Very knowledgeable about Vue.js and React.",
+    createdAt: "2025-12-06T10:30:00.000Z"
+  },
+  {
+    id: "2",
+    firstName: "Sarah",
+    lastName: "Chen",
+    email: "sarah.chen@designstudio.com",
+    phone: "+1 (555) 234-5678",
+    title: "UX Designer",
+    company: "DesignStudio",
+    location: "New York, NY",
+    website: "https://sarahchen.design",
+    tags: ["design", "creative", "work"],
+    notes: "Great designer, worked together on the FinTech project.",
+    createdAt: "2025-12-09T14:20:00.000Z"
+  },
+  {
+    id: "3",
+    firstName: "Marcus",
+    lastName: "Rodriguez",
+    email: "marcus.rodriguez@startup.io",
+    phone: "+1 (555) 345-6789",
+    title: "Product Manager",
+    company: "StartupIO",
+    location: "Austin, TX",
+    tags: ["product", "management", "startup"],
+    notes: "University friend from MBA program.",
+    createdAt: "2025-12-08T09:15:00.000Z"
+  },
+  {
+    id: "4",
+    firstName: "Jessica",
+    lastName: "Williams",
+    email: "jessica.williams@finance.com",
+    phone: "+1 (555) 456-7890",
+    title: "Financial Analyst",
+    company: "FinanceCorp",
+    location: "Chicago, IL",
+    tags: ["finance", "analyst", "business"],
+    notes: "Neighbor and weekend golf partner.",
+    createdAt: "2025-12-05T16:45:00.000Z"
+  },
+  {
+    id: "5",
+    firstName: "David",
+    lastName: "Kim",
+    email: "david.kim@health.org",
+    phone: "+1 (555) 567-8901",
+    title: "Research Scientist",
+    company: "Health Research Institute",
+    location: "Boston, MA",
+    website: "https://healthresearch.org/team/david-kim",
+    tags: ["research", "science", "health"],
+    notes: "Collaborated on healthcare app project.",
+    createdAt: "2025-12-03T11:20:00.000Z"
+  }
+];
