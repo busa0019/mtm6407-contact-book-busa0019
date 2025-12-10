@@ -158,7 +158,7 @@ const recentContacts = computed(() => {
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h6 class="mb-0">{{ contact.firstName }} {{ contact.lastName }}</h6>
+                                    <h6 class="mb-0">{{ contact.lastName }} {{ contact.firstName }}</h6>
                                     <small class="text-muted">{{ contact.email }}</small>
                                 </div>
                                 <router-link :to="`/contact/${contact.id}`" class="btn btn-sm btn-outline-primary">
